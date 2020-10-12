@@ -71,3 +71,16 @@
 //     splitNum.push(Math.ceil(n/2));
 //     return splitNum;
 // }
+
+// Create a function that counts the number of syllables a word has. Each syllable is separated with a dash (-).
+
+// function numberSyllables(word) {
+//     var syllable = 1;
+//     for (var i = 0; i < word.length; i++) {
+//         if(word[i] === "-") {
+//             syllable += 1;
+//         }
+//     }
+//     return syllable;
+// }
+
