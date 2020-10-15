@@ -39,12 +39,12 @@
 // var no = "FaagdnglishAGG";
 // var yes = "SMFENgliSHasnD";
 // var x = "GbhdfJeNglishHHf";
-//
+
 // function english(str) {
 //     var check = str.toLowerCase()
 //     return check.includes("english");
 // }
-//
+
 // console.log(english(no));
 // console.log(english(yes));
 // console.log(english(x));
@@ -72,3 +72,24 @@
 // }
 //
 // console.log(addInt(numArr));
+
+// sum of multiples
+// var count = 0;
+//
+// for(var i = 0; i < 1000; i++) {
+//     if (i % 3 === 0 || i % 5 === 0) {
+//         console.log(count += i);
+//     }
+// }
+
+//even fibonacci
+
+function fibonacci(number) {
+    let count = 0;
+    let first = 1;
+    let second = 1;
+    for(var i = 1; i < number; i++){
+    }
+}
+
+fibonacci(100);
