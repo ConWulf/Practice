@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+	<meta charset="UTF-8">
+	<title>Registration</title>
 </head>
 <body>
-$END$
+<main>
+	<form method="POST">
+		<section>
+			<label for="username"></label>
+			<input type="text" id="username" name="username" placeholder="enter a username" required autofocus>
+		</section>
+		<br>
+		<section>
+			<label for="email"></label>
+			<input type="email" id="email" name="email" placeholder="please enter an email">
+		</section>
+		<br>
+		<section>
+			<label for="password"></label>
+			<input type="password" id="password" name="password" placeholder="enter a password" required>
+			<br>
+			<button type="button" id="enter">Enter</button>
+		</section>
+			<br>
+		<section>
+			<label for="reEnter"></label>
+			<input type="password" id="reEnter" name="password" placeholder="re-enter your password" disabled>
+		</section>
+		<br>
+		<section>
+			<label for="newsLetter"><input type="checkbox" id="newsLetter" name="newsLetter" checked>Would you like to sign up for the Newsletter</label>
+
+		</section>
+		<br>
+		<button id="submit" type="submit">Create New Account</button>
+	</form>
+</main>
+<script src="js/register.js"></script>
 </body>
 </html>
