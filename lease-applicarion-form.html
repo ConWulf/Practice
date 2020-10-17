@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lease Application</title>
+	<link rel="stylesheet" href="css/lease.css">
+</head>
+<body>
+<form method="POST" action="https://hookb.in/b9r9Rd1jKPC3DDogQkKa">
+	<div class="date-and-time">
+		<label for="received">Received</label>
+		<input type="datetime-local" id="received" name="received" required>
+	</div>
+</form>
+<br>
+<header>
+	<section>
+		<img src="img/pexels-david-buchi-1070345.jpg" alt="geometric triangles" id="triangle-logo">
+	</section>
+	<section>
+		<h3>Realtors Association®</h3>
+		<h1>Residential Lease Application</h1>
+		<h5>use of this form by persons not a member of the Realtors Association® is not authorized</h5>
+		<h6><strong>©Realtors Association®, Inc. 2003</strong></h6>
+	</section>
+	<section>
+		<h2><strong>Each occupant and co-applicant 18 years or older must submit a separate application</strong></h2>
+	</section>
+</header>
+<hr class="division">
+<main>
+	<form method="POST" action="https://hookb.in/2qpJB7plN1T9BBKGpVYr">
+		<section id="general-info">
+			<label for="address">Property Address</label>
+			<input type="text" id="address" name="address" required>
+			<div>
+				<label for="move-date">Anticipated:   Move-in Date:</label>
+				<input type="date" id="move-date" name="move-date" required>
+				<label for="rent">Monthly Rent: $</label>
+				<input type="number" id="rent"  name="number" required>
+				<label for="security-deposit">Security Deposit: $</label>
+				<input type="number" id="security-deposit" name="security-deposit" required>
+			</div>
+		</section>
+		<br>
+		<section class="referral">
+			<fieldset>
+				<legend>Applicant was referred to Landlord by:</legend>
+				<label for="agent"><input type="checkbox" name="referred-by" id="agent" class="referral-check">Real Estate Agent</label>
+				<label for="name">name<input type="text" name="referred-by" id="name" class="referral-check"></label>
+				<label for="phone">Phone<input type="tel" id="phone" name="referred-by" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="referral-check"></label>
+				<label for="newspaper" class="referral-label paper"><input type="checkbox" id="newspaper" name="referred-by">Newspaper</label>
+				<label for="billboard" class="referral-label"><input type="checkbox" id="billboard" name="referred-by">Billboard</label>
+				<label for="internet" class="referral-label"><input type="checkbox" id="internet" name="referred-by">Internet</label>
+				<label for="other" class="referral-label"><input type="checkbox" id="other" name="referred-by">Other</label>
+				<label for="explain"><textarea id="explain"></textarea></label>
+			</fieldset>
+		</section>
+	</form>
+</main>
+
+<script src="js/lease.js"></script>
+</body>
+</html>
