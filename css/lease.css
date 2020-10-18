@@ -30,7 +30,7 @@
     margin-left: 20px;
 }
 
-.applicant-info span {
+.applicant-info span:first-child {
     margin-right: 10px;
 }
 
@@ -39,3 +39,12 @@
     float: left;
     clear: left;
 }
+
+.applicant-home-phone, .applicant-mobile-phone{
+    float: left;
+}
+
+.applicant-dl, .dl-state {
+    float:left;
+}
+

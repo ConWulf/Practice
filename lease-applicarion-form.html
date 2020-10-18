@@ -63,6 +63,13 @@
 				<label for="co-applicant-yes" class="applicant"><span>Is there a co-applicant?</span> Yes<input type="radio" id="co-applicant-yes" name="co-applicant" value="yes"></label>
 				<label for="co-applicant-no">No<input type="radio" id="co-applicant-no" name="co-applicant" value="no"><strong>If yes, co-applicant must submit a separate application</strong></label>
 				<label for="former-name" class="applicant">Applicants former last name (maiden or married)<input type="text" id="former-name" required name="applicant-former-name"></label>
+				<label for="e-mail" class="applicant">E-mail<input type="email" id="e-mail" name="e-mail" required></label>
+				<label for="home-phone" class="applicant-home-phone">Home Phone<input type="tel" id="home-phone" name="home-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+				<label for="work-phone" class="applicant">Work Phone<input type="tel" id="work-phone"  name="work-phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+				<label for="mobile-phone" class="applicant-mobile-phone">Mobile/Pager<input type="tel" name="mobile-phone" id="mobile-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
+				<label for="fake-ssn" class="applicant">Soc. Sec. No.<input type="tel" id="fake-ssn" name="ssn" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" required></label>
+				<label for="dl" class="applicant-dl">Drivers License No.<input type="number" id="dl" name="dl" required><span>in</span></label>
+				<label for="state" class="dl-state"><input type="text" id="state" name="dl" required>(state)</label>
 			</fieldset>
 		</section>
 		<button type="submit">submit</button>
