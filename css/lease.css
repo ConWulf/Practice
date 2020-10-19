@@ -4,22 +4,47 @@
 }
 
 .referral-label {
-    float: left;
     display:block;
+    float: left;
     clear:left;
+    margin-bottom: 5px;
 }
 
-.refferal
+.referral label:last-child {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
-/*.referral-check.paper {*/
-/*    float: left;*/
-/*    clear: right;*/
-/*}*/
+.name-check {
+    margin-left: 5px;
+}
 
-/*.referral-check.web, .referral-check.sign {*/
-/*    float: left;*/
-/*}*/
+.applicant-info label:nth-child(3) {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
 
-/*.referral-check.other {*/
-/*    float: left;*/
-/*}*/
+.applicant-info strong {
+    margin-left: 20px;
+}
+
+.applicant-info span:first-child {
+    margin-right: 10px;
+}
+
+.applicant{
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.applicant-home-phone, .applicant-mobile-phone{
+    float: left;
+}
+
+.applicant-dl, .dl-state {
+    float:left;
+}
+
