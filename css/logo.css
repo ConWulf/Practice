@@ -40,6 +40,8 @@ body, html {
     justify-content: flex-start;
     position: relative;
     top: 5em;
+    left: .4em;
+    z-index: 1;
 }
 
 .leftContainer {
@@ -59,47 +61,82 @@ body, html {
 }
 
 .starLeft {
-    border-right: 2em solid #F0D58F;
-    border-top: 5em solid transparent;
-    border-bottom: 5em solid transparent;
+    border-right: 2em solid #CD9F55;
+    border-top: 6em solid transparent;
+    border-bottom: 6em solid transparent;
     align-self: flex-start;
     position: relative;
     left: 10%;
+    bottom: 1em;
 }
 
 .starRight {
-    content: "";
-    border-right: 2em solid #F0D58F;
-    border-top: 5em solid transparent;
-    border-bottom: 5em solid transparent;
+    border-right: 2em solid #CD9F55;
+    border-top: 6em solid transparent;
+    border-bottom: 6em solid transparent;
     transform: scaleX(-1);
     position: relative;
     left: 10%;
-
 }
 
-.starRightSmall {
-    content: "";
-    border-right: 2em solid #F0D58F;
-    border-top: 5em solid transparent;
-    border-bottom: 5em solid transparent;
+.starRightLarge {
+    border-right: 2em solid #CD9F55;
+    border-top: 6em solid transparent;
+    border-bottom: 6em solid transparent;
     position: relative;
-    right: 45%;
+    right: 44%;
     bottom: 1em;
     transform: rotate(90deg);
+}
 
+.starLeftLarge {
+    border-right: 2em solid #CD9F55;
+    border-top: 6em solid transparent;
+    border-bottom: 6em solid transparent;
+    position: relative;
+    right: 79%;
+    top: 1em;
+    transform: rotate(90deg) scaleX(-1);
 }
 
 .starLeftSmall {
-    content: "";
-    border-right: 2em solid #F0D58F;
+    border-right: 2em solid #CD9F55;
     border-top: 5em solid transparent;
     border-bottom: 5em solid transparent;
+    transform: scaleX(-1) rotate(45deg);
     position: relative;
-    right: 80%;
-    top: 1em;
-    transform: rotate(90deg) scaleX(-1);
+    right: 105%;
+    bottom: .5em;
+}
 
+.starRightSmall {
+    border-right: 2em solid #CD9F55;
+    border-top: 5em solid transparent;
+    border-bottom: 5em solid transparent;
+    transform: rotate(-45deg);
+    position: relative;
+    right: 166%;
+    top: .90em;
+}
+
+.starLSmall {
+    border-right: 2em solid #CD9F55;
+    border-top: 5em solid transparent;
+    border-bottom: 5em solid transparent;
+    transform: rotate(45deg);
+    position: relative;
+    right: 238%;
+    bottom: .65em;
+}
+
+.starRSmall {
+    border-right: 2em solid #CD9F55;
+    border-top: 5em solid transparent;
+    border-bottom: 5em solid transparent;
+    transform: scaleX(-1) rotate(-45deg);
+    position: relative;
+    right: 179%;
+    top: .9em;
 }
 
 .barLeft {
@@ -107,7 +144,8 @@ body, html {
     width: 100%;
     height: 2em;
     transform: skewY( 13deg);
-
+    position: relative;
+    left: .4em;
 }
 
 .barRight {
@@ -115,6 +153,8 @@ body, html {
     width: 100%;
     height: 2em;
     transform: skewY( -13deg);
+    position: relative;
+    right: .35em;
 }
 
 .barLeft:nth-child(2), .barRight:nth-child(2) {
