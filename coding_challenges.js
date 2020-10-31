@@ -138,3 +138,39 @@ function stringToNum (str) {
 
 //take in two arrays, return array with elements that are in the first but not the second
 
+
+
+
+
+
+// function nameShuffle(str) {
+//     return str.split(" ").reverse().join(" ");
+// }
+
+//find a palindromic number by multiplying two numbers
+
+
+
+function countLetters(str) {
+    //count each letter in the order that it appears
+
+
+}
+
+
+
+const today = new Date("October 31, 2020");
+console.log(today);
+console.log(today.getFullYear());
+
+let birthday = "11/04/1982";
+let age = 34;
+
+function calcAge(date) {
+ let dateArr =  date.split("/");
+
+}
+
+
+
+
