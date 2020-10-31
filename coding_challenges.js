@@ -138,6 +138,3 @@ function stringToNum (str) {
 
 //take in two arrays, return array with elements that are in the first but not the second
 
-
-
-console.log(uniqueItems(uarr, otherArr));

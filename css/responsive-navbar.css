@@ -74,15 +74,42 @@ h2, a  {
         align-items: center;
     }
 
-    .link1 {
-        /*justify-content: center;*/
-    }
-
-
 
 }
 
+@media screen and (min-width: 992px) {
 
+    .link-c {
+        justify-content: flex-end;
+    }
+
+    .logo-a {
+        align-self: flex-start;
+    }
+
+    .link1 {
+        justify-content: flex-end;
+    }
+
+    .link2 {
+        justify-content: flex-end;
+        flex-basis:5%;
+    }
+
+    .nav-cont {
+        display: flex;
+        align-items: center;
+    }
+
+    h2 {
+        /*align-self: flex-end;*/
+        position: relative;
+        z-index: 1;
+        margin: 8px 0;
+    }
+
+
+}
 
 
 
