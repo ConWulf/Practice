@@ -73,6 +73,22 @@
 //
 // console.log(addInt(numArr));
 
+//function
+//takes in string of letters
+//count each letter
+//output the number of times each letter appears
+//space each num w/ a character
+
+var hello = "hello world";
+var c =  "challenge";
+
+function stringToNum (str) {
+
+}
+
+
+
+
 // sum of multiples
 // var count = 0;
 //
@@ -84,12 +100,41 @@
 
 //even fibonacci
 
-function fibonacci(number) {
-    let count = 0;
-    let first = 1;
-    let second = 1;
-    for(var i = 1; i < number; i++){
-    }
-}
+// function fibonacci(number) {
+//     for(var i = 1; i < number; i++){
+//     }
+// }
+//
+// fibonacci(100);
 
-fibonacci(100);
+// write a function that returns a boolean if the given string contains a valid number of braces
+// let brace1 = "(afaf{ghjgfhgf}asda)" //true
+// let brace2 = "erwb [ghjgfhgf] sdgs" //true
+// let brace3 = "{asdf (ghjgfhgf] asdfda}" //false
+// let brace4 = "(wfweqf [ghjgfhgf] fgassa)" //true
+// let brace5 = "(ghjgfhgf)" //true
+//
+// function isValidNesting(str) {
+//     let countBraces = 0
+//     for (let i = 0; i < str.length  ; i++) {
+//         if (str.charAt(i) === "[" || str.charAt(i) === "{" || str.charAt(i) === "(" ) {
+//             countBraces += 1;
+//             console.log(" left " + countBraces);
+//         } else if (str.charAt(i) === "]" || str.charAt(i) === "}" || str.charAt(i) === ")" ) {
+//             countBraces -= 1
+//             console.log("right " + countBraces);
+//         }
+//     }
+//     return countBraces === 0;
+// }
+//
+// // console.log(isValidNesting(brace1));
+// // console.log(isValidNesting(brace2));
+// console.log(isValidNesting(brace3));
+// // console.log(isValidNesting(brace4));
+// // console.log(isValidNesting(brace5));
+
+
+
+//take in two arrays, return array with elements that are in the first but not the second
+

@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+}
+
+.bg-bar {
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    top: 37px;
+    background-color: white;
+
+}
+
+.design-logo {
+    width: 105px;
+    height:105px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+h2, a  {
+    font-family: "Abel", sans-serif;
+}
+
+.nav-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 25%;
+    margin: 0;
+}
+
+.link2 {
+    display: flex;
+    flex-basis: 25%;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .l-bar {
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        top: 37px;
+        background-color: white;
+        display: flex;
+    }
+
+    .link-c {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .link-c {
+        justify-content: flex-end;
+    }
+
+    .logo-a {
+        align-self: flex-start;
+    }
+
+    .link1 {
+        justify-content: flex-end;
+    }
+
+    .link2 {
+        justify-content: flex-end;
+        flex-basis:5%;
+    }
+
+    .nav-cont {
+        display: flex;
+        align-items: center;
+    }
+
+    h2 {
+        /*align-self: flex-end;*/
+        position: relative;
+        z-index: 1;
+        margin: 8px 0;
+    }
+
+
+}
+
+
+
