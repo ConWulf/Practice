@@ -115,7 +115,6 @@ body, html {
     }
 
     #codeup-nav {
-        /*align-self: flex-end;*/
         position: relative;
         z-index: 1;
         margin: 8px 0;
